@@ -26,10 +26,10 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_spes
 TARGET_RECOVERY_DEVICE_MODULES := libinit_spes
 
 # Kernel
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-KERNEL_DEFCONFIG := vendor/spes-perf_defconfig
-KERNEL_LLVM_SUPPORT := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6225
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+KERNEL_LLVM_SUPPORT := true
+KERNEL_DEFCONFIG := vendor/bengal-perf_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := spes,spesn
